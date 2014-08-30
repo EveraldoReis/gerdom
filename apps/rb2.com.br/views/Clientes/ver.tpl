@@ -1,0 +1,1 @@
+<?php echo $this->action(array('Clientes'=>'editar')); ?>

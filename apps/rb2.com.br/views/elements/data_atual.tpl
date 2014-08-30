@@ -1,0 +1,1 @@
+Data atual <?php echo date('d/m/Y'); ?>

@@ -1,0 +1,5 @@
+# Habilitar o PHP 5.3
+#AddType application/x-httpd-php53 .php
+RewriteEngine on
+RewriteBase /hospedagem
+RewriteRule (.*) public/$1 [L,QSA]

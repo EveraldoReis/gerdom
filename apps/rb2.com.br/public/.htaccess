@@ -1,0 +1,7 @@
+# Habilitar o PHP 5.3
+#AddType application/x-httpd-php53 .php
+#suPHP_ConfigPath `pwd`
+RewriteEngine on
+#RewriteBase /hospedagem
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule (.*) index.php [L,QSA]
