@@ -16,7 +16,7 @@ if (!isset($_SESSION)) {
  */
 // URL CONFIG
 if (!defined('ROOT_URL')) {
-    define('ROOT_URL', '/hospedagem/');
+    define('ROOT_URL', '/');
 }
 // DIRECTORIES CONFIG
 if (!defined('DS')) {
